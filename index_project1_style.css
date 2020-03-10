@@ -26,23 +26,102 @@ footer {
   background-color: black;
 }
 img{
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
+}
+#twitterImg{
+  height:40px;
+  width:40px;
 }
 .homeLinks{
-  color: white;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  color: black;
+  
   padding: 5px;
   margin-left:30px;
   margin-right: 30px;
 }
-.socialMedia{
+#smLinks{
+  position: absolute;
+  right: 1px;
+  top:-50px;
+}
+.circle {
+  width: 250px;
+  height: 250px;
+  background: darkgrey;
+
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: grey;
+
+  
+  text-align: center;
+  line-height: 235px;
+
+  /* Initial Styling */
+  background: rgba(0,0,0,.1);
+  /* Cursor Styling 
+  background: rgba(0,0,0,.35);*/
+  }
+
+#videoCircle > h1 {
+  font-size: 450%;
+  margin:auto;
+}
+#aboutCircle > h1 {
+  font-size: 450%;
+  margin:auto;
+}
+#articlesCircle > h1 {
+  font-size: 400%;
+  margin:auto;
+}
+#podcastCircle > h1 {
+  font-size: 350%;
+  margin:auto;
+}
+
+#videoCircle {
+  position: absolute;
+  top: 50px;
+  left: 370px;
+}
+
+#podcastCircle {
+  position: absolute;
+  top: 50px;
+  right: 370px;
+}
+
+#aboutCircle {
+  position: absolute;
+  left: 200px;
+  bottom:80px;
+}
+
+#articlesCircle {
+  position: absolute;
+  right: 200px;
+  bottom:80px;
+  
+}
+
+
+
+
+#RandyImage{
+  position: absolute;
+  bottom: 24%;
+  left: 50%;
+  margin: -150px;
   
 }
 #slogan{
   color:white;
   font-family: cursive;
+  margin:0px;
+
+  
 }
 #WebsiteNav{
   display: flex;
@@ -53,8 +132,8 @@ img{
 }
 
 #Randy{
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
 }
 #root {
@@ -69,6 +148,7 @@ img{
 #torso {
   background-color: indigo;
   flex-grow: 1;
+  position: relative;
 }
 
 
