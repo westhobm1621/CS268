@@ -2,6 +2,7 @@ function selectVideoOption() {
   document.getElementById("videoCircle").style.background = 'grey';
 }
 
+
 function unselectVideoOption() {
   document.getElementById("videoCircle").style.background = 'rgba(0,0,0,.1)';
 }
