@@ -13,10 +13,16 @@ li{
 h1{
   display: flex;
   justify-content: center;
-  color: black;
+  color: white;
   padding: 10px;
   margin: 0px;
   font-size:325%
+}
+h2{
+  color:white;
+  text-decoration: underline;
+  margin:5px;
+  font-size: 230%;
 }
 header{
   background-color: purple;
@@ -29,6 +35,20 @@ footer {
 img{
   height: 30px;
   width: 30px;
+}
+p{
+  margin: 10px;
+  font-size: larger;
+  color:white;
+}
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover, a:active, a:focus {
+  color: white;
 }
 .homeLinks{
   color: white;
@@ -50,6 +70,24 @@ img{
   background-color: black;
   padding: 5px;
   margin:0px;
+}
+#RandyPic{
+  /*display: flex;
+  position: absolute;
+  right: 40px;
+  top: 150px; */ 
+  float: right;
+  margin: 10px;
+  margin-top:10px;
+  height: 60%;
+  width: 30%;
+}
+#quote{
+  color: white;
+  font-style: italic;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
 }
 
 #root {
