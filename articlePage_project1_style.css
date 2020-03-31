@@ -6,10 +6,11 @@ html, body, #root {
   height: 100%;
 }
 
-li{
+.smIcon{
   display: inline-block;
   padding: 1px;
 }
+
 h1{
   display: flex;
   justify-content: center;
@@ -31,6 +32,7 @@ img{
   width: 30px;
 }
 .homeLinks{
+  display: inline-block;
   color: white;
   border-left: 1px solid white;
   border-right: 1px solid white;
@@ -50,6 +52,40 @@ img{
   background-color: black;
   padding: 5px;
   margin:0px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.rectangle {
+  height: 5px;
+  background-color: black;
+  margin:auto;
+  margin-top:10px;
+  width: 50%;
+  
+
+}
+h2{
+  color:white;
+  margin-left: 100px;
+}
+ul{
+  margin-left:100px;
+}
+li{
+  color:white;
+}
+#articles{
+  text-align: center;
+  font-size: 300%;
+  margin:20px;
+}
+#podcasts{
+  text-align: center;
+  font-size: 300%;
+  margin:20px;
 }
 
 #root {
