@@ -71,8 +71,27 @@ h2{
   color:white;
   margin-left: 100px;
 }
-ul{
+.section{
   margin-left:100px;
+  margin-top:-10px;
+  display:list-item;
+  color:indigo;
+}
+.title{
+  margin:8px;
+}
+.collapse{
+  color:lightblue;
+  display:block;
+  font-size: small;
+}
+.fullArticle{
+  color:lightblue;
+  font-size:small;
+
+}
+ul{
+  display: none;
 }
 li{
   color:white;
