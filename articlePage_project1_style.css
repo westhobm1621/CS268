@@ -45,7 +45,7 @@ img{
   position: absolute;
   right: 5px;
   top:70px;
-  display: list-item;
+  display:list-item;
 }
 #WebsiteNav{
   display: flex;
