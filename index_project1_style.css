@@ -45,6 +45,11 @@ img{
   right: 1px;
   top:-50px;
 }
+
+
+
+
+
 .circle {
   width: 250px;
   height: 250px;
@@ -72,11 +77,11 @@ img{
   font-size: 450%;
   margin:auto;
 }
-#articlesCircle > h1 {
-  font-size: 400%;
+#artpodCircle > h1 {
+  font-size: 175%;
   margin:auto;
 }
-#podcastCircle > h1 {
+#comedyCircle > h1 {
   font-size: 350%;
   margin:auto;
 }
@@ -87,7 +92,7 @@ img{
   left: 370px;
 }
 
-#podcastCircle {
+#comedyCircle {
   position: absolute;
   top: 50px;
   right: 370px;
@@ -99,7 +104,7 @@ img{
   bottom:80px;
 }
 
-#articlesCircle {
+#artpodCircle {
   position: absolute;
   right: 200px;
   bottom:80px;

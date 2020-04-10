@@ -15,19 +15,19 @@ function unselectAboutOption() {
   document.getElementById("aboutCircle").style.background = 'rgba(0,0,0,.1)';
 }
 function selectPodcastOption() {
-  document.getElementById("podcastCircle").style.background = 'grey';
+  document.getElementById("comedyCircle").style.background = 'grey';
 }
 
 function unselectPodcastOption() {
-  document.getElementById("podcastCircle").style.background = 'rgba(0,0,0,.1)';
+  document.getElementById("comedyCircle").style.background = 'rgba(0,0,0,.1)';
 }
 
 function selectArticlesOption() {
-  document.getElementById("articlesCircle").style.background = 'grey';
+  document.getElementById("artpodCircle").style.background = 'grey';
 }
 
 function unselectArticlesOption() {
-  document.getElementById("articlesCircle").style.background = 'rgba(0,0,0,.1)';
+  document.getElementById("artpodCircle").style.background = 'rgba(0,0,0,.1)';
 }
 /*
 function selectedOption() {

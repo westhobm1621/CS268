@@ -1,0 +1,47 @@
+#column {
+  display: flex;
+  align-items: center;
+}
+
+#right{
+  position: flex;
+  margin-top:-125px;
+}
+.RandyExample{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  width: 370px;
+  height: 315px;
+}
+.RandyiFrameContainer {
+  display: inline-block;
+  /*vertical-align: top;*/
+  width: 400px;
+  background-color: purple;
+  border:solid black;
+  border-radius: 30px;
+  margin:10px;
+  margin-left:30px;
+  
+}
+
+h3 {
+  text-align: center;
+}
+h2{
+  color:white;
+  font-size: 200%;
+  margin:15px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.meme{
+  margin: 10px;  
+  height: 425px;
+  width: 425px;
+  margin-left: 25px;
+}
+
