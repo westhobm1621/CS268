@@ -7,6 +7,40 @@
   border-radius: 30px;
   margin:10px;
 }
+h2{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 160%;
+  font-weight: bolder;
+
+  color:#FFFF00;
+  animation-name: popularZone;
+  position: relative;
+  animation-iteration-count: 3;
+  animation-duration: 3s;
+  top:90px;
+}
+
+@keyframes popularZone {
+  0%   {top:90px;}
+  25%  {top:180px;}
+  50%  {top:90px;}
+  75%  {top:0px;}
+  100% {top:90px;}
+
+  0%{color: #FFFF00;}
+  10%{color: transparent}
+  20%{color: #FFFF00;}
+  30%{color: transparent}
+  40%{color: #FFFF00;}
+  50%{color: transparent}
+  60%{color: #FFFF00;}
+  70%{color: transparent}
+  80%{color: #FFFF00;}
+  90%{color: transparent}
+  100%{color: #FFFF00;}
+}
+
 h3 {
   text-align: center;
 }
