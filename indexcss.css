@@ -1,0 +1,108 @@
+
+#twitterImg{
+  height:40px;
+  width:40px;
+}
+.homeLinks{
+  color: black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  
+}
+#smLinks{
+  right: 1px;
+  top:-50px;
+}
+
+
+.circle {
+  width: 250px;
+  height: 250px;
+  background: darkgrey;
+
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: grey;
+
+  
+  text-align: center;
+  line-height: 235px;
+
+  background: rgba(0,0,0,.1);
+  }
+
+#videoCircle > h1 {
+  font-size: 450%;
+  margin:auto;
+}
+#aboutCircle > h1 {
+  font-size: 450%;
+  margin:auto;
+}
+#artpodCircle > h1 {
+  font-size: 175%;
+  margin:auto;
+}
+#comedyCircle > h1 {
+  font-size: 350%;
+  margin:auto;
+}
+
+#videoCircle {
+  position: absolute;
+  top: 50px;
+  left: 370px;
+}
+
+#comedyCircle {
+  position: absolute;
+  top: 50px;
+  right: 370px;
+}
+
+#aboutCircle {
+  position: absolute;
+  left: 200px;
+  bottom:80px;
+}
+
+#artpodCircle {
+  position: absolute;
+  right: 200px;
+  bottom:80px;
+  
+}
+
+
+
+
+#RandyImage{
+  position: absolute;
+  bottom: 24%;
+  left: 50%;
+  margin: -150px;
+  
+}
+
+#slogan{
+  color:white;
+  font-family: cursive;
+  margin:0px;
+
+  
+}
+
+#Randy{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+#torso {
+  
+  position: relative;
+}
+
+
+
