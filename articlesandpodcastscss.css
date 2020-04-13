@@ -1,0 +1,71 @@
+.smIcon{
+  display: inline-block;
+  padding: 1px;
+}
+.homeLinks{
+  display: inline-block;
+  
+}
+
+#smLinks{
+  display:list-item;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.rectangle {
+  height: 5px;
+  background-color: black;
+  margin:auto;
+  margin-top:10px;
+  width: 50%;
+  
+
+}
+h2{
+  color:white;
+  margin-left: 100px;
+}
+.section{
+  margin-left:100px;
+  margin-top:-10px;
+  display:list-item;
+  color:indigo;
+}
+.title{
+  margin:8px;
+}
+.collapse{
+  color:lightblue;
+  display:block;
+  font-size: small;
+}
+.fullArticle{
+  color:lightblue;
+  font-size:small;
+
+}
+ul{
+  display: none;
+}
+li{
+  color:white;
+  display: list-item;
+}
+
+#articles{
+  text-align: center;
+  font-size: 300%;
+  margin:20px;
+}
+#podcasts{
+  text-align: center;
+  font-size: 300%;
+  margin:20px;
+}
+
+
+
