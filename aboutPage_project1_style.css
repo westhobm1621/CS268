@@ -31,6 +31,11 @@ a:hover, a:active, a:focus {
   font-size: larger;
   display: flex;
   justify-content: center;
+  padding:10px;
+}
+label{
+  color: white;
+  margin:10px;
 }
 
 

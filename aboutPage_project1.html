@@ -9,6 +9,8 @@
 
         <title>RR About Page</title>
 
+        <script src="about_page_js.js"></script>
+
         <meta name="viewport" content="width=device-width, initial-scale=.3">
 
     </head>
@@ -49,6 +51,20 @@
                         where he gives his opinion on what the Vikings need to do in order to capture the endlessly elusive Lombardi Trophy. 
                     </p>
 
+                    <p id = "formResponse">Side Note: Who do you think will win the NFC North in 2020?</p>
+
+                    <form id = "form">
+                        <label for="teams">Choose a team:</label>
+                        <select id="teams" name="teams">
+                          <option value="Minnesota Vikings">Minnesota Vikings</option>
+                          <option value="Green Bay Packers">Green Bay Packers</option>
+                          <option value="Detroit Lions">Detroit Lions</option>
+                          <option value="Chicago Bears">Chicago Bears</option>
+                        </select>
+                        <button type="button" onclick="clickSubmit()">Submit</button>
+                      </form>
+
+
                     <h2>Achievements</h2>
                     <p>
                         In just three short years of creating content, Randy now has a following of 4,980 followers on youtube and 
@@ -78,6 +94,8 @@
 
                     <h3 id = "quote">"The Mediokr at Best Sports Podcast is not a clickbait show with takes purposely driven to gain views. The show, my brand, is simply me." - Randy
                     </h3>
+
+                    
 
                     
 
