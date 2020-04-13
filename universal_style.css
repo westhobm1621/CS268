@@ -39,6 +39,11 @@ img{
   margin-right: 30px;
 }
 
+.ribbon{
+  text-decoration: none;
+  color: white;
+}
+
 #smLinks{
   position: absolute;
   right: 5px;

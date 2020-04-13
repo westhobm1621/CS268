@@ -4,7 +4,6 @@
 }
 
 #right{
-  position: flex;
   margin-top:-125px;
 }
 .RandyExample{
@@ -14,6 +13,8 @@
   border-radius: 15px;
   width: 370px;
   height: 315px;
+
+  border:none;
 }
 .RandyiFrameContainer {
   display: inline-block;

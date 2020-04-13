@@ -25,7 +25,7 @@ a:hover, a:active, a:focus {
   height: 60%;
   width: 30%;
 }
-#quote{
+.quote{
   color: white;
   font-style: italic;
   font-size: larger;
