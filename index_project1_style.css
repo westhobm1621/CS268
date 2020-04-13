@@ -29,10 +29,7 @@
   text-align: center;
   line-height: 235px;
 
-  /* Initial Styling */
   background: rgba(0,0,0,.1);
-  /* Cursor Styling 
-  background: rgba(0,0,0,.35);*/
   }
 
 #videoCircle > h1 {
